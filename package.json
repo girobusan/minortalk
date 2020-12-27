@@ -70,7 +70,9 @@
   "dependencies": {
     "@cloudcmd/create-element": "^2.0.0",
     "currify": "^4.0.0",
-    "fullstore": "^3.0.0"
+    "fullstore": "^3.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
   },
   "publishConfig": {
     "access": "public"

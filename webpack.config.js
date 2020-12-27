@@ -9,8 +9,8 @@ const dist = path.resolve(__dirname, 'dist');
 const devtool = 'source-map';
 
 const rules = [{
-    test: /\.css$/,
-    use: ['style-loader', 'css-loader', 'clean-css-loader'],
+    test: /\.[s]?css$/,
+    use: ['style-loader', 'css-loader', 'sass-loader'],
 }, {
     test: /\.(png|gif|svg|woff|woff2|eot|ttf)$/,
     use: [{
