@@ -107,10 +107,13 @@
     padding: 0px 0px;
     margin-top: 24px !important;
     position: relative;
+    input,progress{
+   margin-top: 12px;
+    }
 }
 
 .smalltalk .page .action-area {
-    padding: 14px 17px;
+    padding: 0 16px;
 }
 
 button {
